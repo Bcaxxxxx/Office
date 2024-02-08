@@ -7,12 +7,12 @@
     "start": "node index.js"
   },
   "dependencies": {
+  	"express": "^4.17.1",
+    "axios": "^0.23.0",
+    "body-parser": "^1.19.0",
   	"express-edge": "^3.0.0",
     "ip-range-check": "^0.2.0",
     "isbot": "^3.7.0",
-    "request-ip": "^3.3.0",
-    "express": "^4.17.1",
-    "axios": "^0.23.0",
-    "body-parser": "^1.19.0"
+    "request-ip": "^3.3.0"
   }
 }
