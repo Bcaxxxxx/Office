@@ -3,7 +3,6 @@ const axios = require('axios');
 const path = require('path');
 const bodyParser = require('body-parser');
 const antibot = require('./middleware/antibot');
-const ipRangeCheck = require('ip-range-check');
 
 const app = express();
 const port = 3000;
